@@ -29,3 +29,16 @@
 //     console.log('Muertos');
     
 // }
+
+
+// == STRINGS ==
+
+// let batman: string = "batman";
+// let linternaVerde = "linterna verde";
+// let volcanNegro: string = 'Volcan Negro';
+
+// console.log(batman);
+// console.log(linternaVerde);
+// console.log(volcanNegro);
+
+
