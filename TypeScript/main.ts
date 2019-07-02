@@ -62,3 +62,6 @@
 // let arreglo: number[] = [1,2,3,4,5,6,6];
 // let villanos: string[] = ['Omega roko', 'Duende verde','Dormanu'];
 // console.log(villanos[0].charAt(0));
+
+// == TUPLAS ==
+// let heroes: [ string, number, boolean ] = ['Dr. Strage', 100, true];
