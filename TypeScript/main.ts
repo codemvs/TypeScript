@@ -56,3 +56,9 @@
 // vengador = true;
 // console.log(vengador);
 // console.log(existe);
+
+//=== Arra ===
+
+// let arreglo: number[] = [1,2,3,4,5,6,6];
+// let villanos: string[] = ['Omega roko', 'Duende verde','Dormanu'];
+// console.log(villanos[0].charAt(0));
