@@ -8,8 +8,11 @@ var flash = {
         return this.nombre;
     }
 };
-// flash = {
-//     nombre: 'Piter',
-//     edad: 500,
-//     poderes:['volar']
-// }
+var superman = {
+    nombre: 'Clark Kent',
+    edad: 500,
+    poderes: ['Puede correr myy rapido', 'Super velocidad'],
+    getNombre: function () {
+        return this.nombre;
+    }
+};
