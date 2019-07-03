@@ -25,3 +25,14 @@ let superman: Heroe = {
     }
 }
 
+// Multiples tipos permitidos
+type Tipo = {
+    nombre: string,
+    edad: number
+}
+
+let loquesea: string | number | Tipo = 'Salvador';
+loquesea = {
+    nombre:'',
+    edad:2
+}

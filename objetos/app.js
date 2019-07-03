@@ -16,3 +16,8 @@ var superman = {
         return this.nombre;
     }
 };
+var loquesea = 'Salvador';
+loquesea = {
+    nombre: '',
+    edad: 2
+};
