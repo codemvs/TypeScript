@@ -99,3 +99,7 @@
 // let largoString: number = (<string>cualquierValor).length;
 
 // console.log(largoString);
+
+// === NULL y UNDEFINED ===
+
+
