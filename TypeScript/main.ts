@@ -92,3 +92,10 @@
 // }
 // error("Error critico ... linea 91 alcanzada...");
 
+
+// == ASERCIONES DE TIPO (CASTING) ==
+// let cualquierValor: any = "Cualquier cosa";
+
+// let largoString: number = (<string>cualquierValor).length;
+
+// console.log(largoString);
