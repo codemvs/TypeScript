@@ -76,3 +76,19 @@
 
 // let audio: number = Volumen.medio;
 // console.log(audio);
+
+// === VACIOS ===
+// function llamar_batman():void{
+//     console.log('Show Batman');        
+// }
+
+// let mensaje = llamar_batman();
+// console.log(mensaje);
+
+// == NEVER == 
+/** Accion que nuca puede suceder */
+// function error( mensaje: string ):never{
+//     throw new Error(mensaje); 
+// }
+// error("Error critico ... linea 91 alcanzada...");
+
