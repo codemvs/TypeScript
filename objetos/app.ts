@@ -36,3 +36,10 @@ loquesea = {
     nombre:'',
     edad:2
 }
+
+// Revisar tipo de variable
+let cosa: any = 123;
+if( typeof cosa === "number" ){
+    console.log('Is number');
+    
+}
