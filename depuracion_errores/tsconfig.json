@@ -62,6 +62,12 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
 
     //Eliminar comentarios al compilar
-    "removeComments": true
-  }
+    "removeComments": true    
+  },
+  "include": [
+    "app/**/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
