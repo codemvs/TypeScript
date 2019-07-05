@@ -1,5 +1,9 @@
 "use strict";
-console.log('Text', Validaciones.validarTexto(' Barry Allen '));
-console.log('Text', Validaciones.validarTexto('Ba'));
-var hoy = new Date();
-console.log('Fecha', Validaciones.validarFecha(hoy));
+/// <reference path="../validaciones/fecha.ts"/>
+/// <reference path="../validaciones/textos.ts"/>
+if (Validaciones.validarTexto('Barry Allen')) {
+    console.log(' Text valido ');
+}
+else {
+    console.log('Texto no valido');
+}
