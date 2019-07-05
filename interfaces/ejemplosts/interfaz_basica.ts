@@ -34,3 +34,19 @@ class ClasePadre implements Xmen {
 }
 
 let clase = new ClasePadre('nombre');
+
+
+// Interfaces para las funciones
+
+/*
+Condiciones para declarar una funcion
+*/
+interface DosNumerosFunc {
+    (num1: number, num2:number) : number
+}
+
+let sumar: DosNumerosFunc = (a:number, b:number) => a + b;
+let restar: DosNumerosFunc = (a: number, b:number) => a - b; 
+
+
+

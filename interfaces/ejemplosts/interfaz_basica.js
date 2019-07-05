@@ -26,3 +26,5 @@ var ClasePadre = /** @class */ (function () {
     return ClasePadre;
 }());
 var clase = new ClasePadre('nombre');
+var sumar = function (a, b) { return a + b; };
+var restar = function (a, b) { return a - b; };
