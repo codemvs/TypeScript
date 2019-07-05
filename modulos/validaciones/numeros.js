@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PI = 3.1416;
+var PI = 3.1416;
+// Modulo por defecto
 function restar(a, b) {
     return a - b;
 }
-exports.restar = restar;
+exports.default = restar;
