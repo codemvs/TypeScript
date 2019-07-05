@@ -15,3 +15,14 @@ var wolverine = {
 };
 enviarMision(wolverine);
 enviarCuartel(wolverine);
+// Implements
+var ClasePadre = /** @class */ (function () {
+    function ClasePadre(nombre) {
+        this.nombre = nombre;
+    }
+    ClasePadre.prototype.regenerar = function (nombreReal) {
+        console.log(nombreReal);
+    };
+    return ClasePadre;
+}());
+var clase = new ClasePadre('nombre');

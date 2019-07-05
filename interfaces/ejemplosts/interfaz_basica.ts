@@ -23,3 +23,14 @@ let wolverine: Xmen = {
 
 enviarMision(wolverine);
 enviarCuartel(wolverine);
+
+// Implements
+
+class ClasePadre implements Xmen {    
+    regenerar(nombreReal: string): void {
+        console.log(nombreReal);        
+    }
+    constructor( public nombre: string ) { }
+}
+
+let clase = new ClasePadre('nombre');
