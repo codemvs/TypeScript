@@ -9,18 +9,40 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 function consola(constructor) {
     console.log(constructor);
 }
-var Villano = /** @class */ (function () {
-    function Villano(nombre) {
-        this.nombre = nombre;
-    }
-    Villano = __decorate([
-        imprimirConsola(true)
-    ], Villano);
-    return Villano;
-}());
 function imprimirConsola(imprimir) {
     if (imprimir) {
         return consola;
     }
     return function () { };
 }
+var Villano = /** @class */ (function () {
+    function Villano(nombre) {
+        this.nombre = nombre;
+    }
+    Villano.prototype.plan = function () {
+        console.log('El plan de ' + this.nombre + ' es dominar el mundo');
+    };
+    __decorate([
+        editable(true)
+    ], Villano.prototype, "plan", null);
+    Villano = __decorate([
+        imprimirConsola(true),
+        planVillano
+    ], Villano);
+    return Villano;
+}());
+function editable(esEditable) {
+    return function (target, nombrePropiedad, descriptor) {
+        descriptor.writable = esEditable;
+    };
+}
+function planVillano(constructor) {
+    constructor.prototype.imprimirPlan = function () {
+        console.log('El plan de ' + this.nombre + 'Es dominar el mundo');
+    };
+}
+var lex = new Villano('Lex');
+lex.plan = function () {
+    console.log('Comer sopa');
+};
+lex.plan();
